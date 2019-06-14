@@ -6,8 +6,8 @@ class Player {
     this.soundObject = new buzz.sound(this.currentlyPlaying.soundFileUrl);
   }
 
-  getDuration() {
-    return this.soundObject.getDuration();
+  getDuration(){
+    return this.soundObject.getDuration;
   }
 
   getTime() {
